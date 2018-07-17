@@ -3,7 +3,7 @@ data("airquality")
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
-  # Model 1
+  # Creating model 1
   air<-na.omit(airquality)
   ozone<-air$Ozone
   Temp<-air$Temp
